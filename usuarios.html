@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Pet - Usuários</title>
+</head>
+<body>
+    <h1>Hotel Pet</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/pets.html">Home</a></li>
+            <li><a href="/usuarios.html">Sobre</a></li>
+            <li><a href="#Configurações">Serviços</a></li>
+            <li><a href="/reservas.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <img src="https://placehold.co/50" alt="profile-icon">
+    <h3>João da Silva</h3>
+
+    <p>Home / Usuário</p>
+
+    <p>Usuários</p>
+
+    <button type="button">Novo</button>
+    <button type="button">Remover</button>
+    <button type="button">Mudar Status</button>
+    
+    <p>Visualizar Por: </p>
+    <button type="button">Usuários</button>
+    <button type="button">Função</button>
+
+    <form action="/usuarios.html" method="post">
+
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="status">Status:</label><br>
+        <input type="text" id="status" name="status"><br><br>
+
+        <label for="criado_em">Criado em:</label><br>
+        <input type="date" id="criado_em" name="criado_em"><br><br>
+        <input type="date" id="criado_em" name="criado_em"><br><br>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="funcao">Função:</label><br>
+        <input type="text" id="funcao" name="funcao"><br><br>
+
+        <button type="button">Pesquisar</button>
+        <button type="button">Limpar</button>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Foto &#8595;</th>
+                    <th>Email &#8595;</th>
+                    <th>Nome &#8595;</th>
+                    <th>Função &#8595;</th>
+                    <th>Status &#8595;</th>
+                    <th>Criado em &#8595;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" checked></td>
+                    <td><img src="https://placehold.co/50" alt=""></td>
+                    <td>joaodasilva@pet.com</td>
+                    <td>João da Silva</td>
+                    <td>Gerente</td>
+                    <td><button type="button">Ativo</button></td>
+                    <td>19/12/20</td>
+                    <td><a href="">Editar</a></td>
+                    <td><a href="">Visualizar</a></td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+    </form>
+
+</body>
+</html>
