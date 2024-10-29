@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Pet - Pets</title>
+</head>
+<body>
+    <h1>Hotel Pet</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#Pets">Home</a></li>
+            <li><a href="#Usuários">Sobre</a></li>
+            <li><a href="#Configurações">Serviços</a></li>
+            <li><a href="#Reservas">Contato</a></li>
+        </ul>
+    </nav>
+
+    <img src="https://placehold.co/50" alt="profile-icon">
+    <h3>João da Silva</h3>
+
+    <p>Home / Pets</p>
+
+    <p>Pets</p>
+
+    <button type="button">Novo Pet</button>
+
+    <form action="/pets.html" method="post">
+        
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br><br>
+
+        <label for="raca">Raça:</label><br>
+        <input type="text" id="raca" name="raca"><br><br>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="tamanho">Tamanho:</label><br>
+        <input type="text" id="tamanho" name="tamanho"><br><br>
+
+        <input type="submit" value="Pesquisar">
+        <input type="submit" value="Limpar">
+
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Id &#8595;</th>
+                <th>Nome &#8595;</th>
+                <th>Tipo &#8595;</th>
+                <th>Raça &#8595;</th>
+                <th>Tamanho &#8595;</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" checked></td>
+                <td>12349984501</td>
+                <td>Max</td>
+                <td>Cachorro</td>
+                <td>Pastor Alemão</td>
+                <td>Grande</td>
+                <td><a href="#">Editar</a> <a href="#">Visualizar</a></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>12349984501</td>
+                <td>Ginger</td>
+                <td>Gato</td>
+                <td>Não definida</td>
+                <td>Pequeno</td>
+                <td><a href="#">Editar</a> <a href="#">Visualizar</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
