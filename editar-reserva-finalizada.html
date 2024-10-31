@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Pet - Editar Reserva</title>
+</head>
+<body>
+    
+    <h1>Hotel Pet</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/pets.html">Home</a></li>
+            <li><a href="/usuarios.html">Sobre</a></li>
+            <li><a href="/config.html">Serviços</a></li>
+            <li><a href="/reservas.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <img src="https://placehold.co/50" alt="profile-icon">
+    <h3>João da Silva</h3>
+
+    <p>Home / Reserva / Editar Reserva</p>
+
+    <p>Editar Reserva</p>
+
+    <label for="proprietario">Proprietário *</label><br>
+    <input type="text" id="proprietario" name="proprietario"><br><br>
+
+    <label for="pet">pet *</label><br>
+    <input type="text" id="pet" name="pet"><br><br>
+
+    <label for="periodo">Periodo *</label><br>
+    <input type="date" id="periodo" name="periodo">
+    <input type="date" id="periodo" name="periodo"><br><br>
+
+    <label for="notas">Notas</label><br>
+    <textarea name="notas" id="notas"></textarea><br>
+
+    Status<br>
+    <select name="status" required="required" id="status">
+        <option value="finalizada">Finalizada</option>
+        <option value="em_andamento">Em andamento</option>
+        <option value="opcao">Outra Opção</option>
+    </select><br><br>
+
+    <p>Total das diárias: </p>
+
+    <button type="submit">Adicionar nota fiscal</button><br><br>
+    <button type="submit">Salvar</button>
+    <button type="submit">Limpar</button>
+
+</body>
+</html>

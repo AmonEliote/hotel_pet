@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Pet - Editar Perfil</title>
+</head>
+<body>
+    
+    <h1>Hotel Pet</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/pets.html">Home</a></li>
+            <li><a href="/usuarios.html">Sobre</a></li>
+            <li><a href="#Configurações">Serviços</a></li>
+            <li><a href="/reservas.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <img src="https://placehold.co/50" alt="profile-icon">
+    <h3>João da Silva</h3>
+
+    <p>Home / Editar Perfil</p>
+
+    <p>Editar Perfil</p>
+
+    <form action="/editar-perfil.html">
+
+        <label for="email">Email *</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="nome">Nome *</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="sobrenome">Sobrenome</label><br>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+
+        <label for="telefone">Telefone *</label><br>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        Função<br>
+        <select name="funcao" required="required" id="funcao">
+            <option value="">-----------------</option>
+            <option value="funcionario">Funcionário</option>
+            <option value="cliente">Cliente</option>
+            <option value="gerente">Gerente</option>
+        </select><br><br>
+
+        <img src="https://placehold.co/130" alt="pfp"><br><br>
+
+        <button type="submit">Salvar</button>
+        <button type="submit">Limpar</button>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Pet - Editar Reserva</title>
+</head>
+<body>
+    <h1>Hotel Pet</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/pets.html">Home</a></li>
+            <li><a href="/usuarios.html">Sobre</a></li>
+            <li><a href="#Configurações">Serviços</a></li>
+            <li><a href="/reservas.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <img src="https://placehold.co/50" alt="profile-icon">
+    <h3>João da Silva</h3>
+
+    <p>Home / Reservas / Editar Reserva</p>
+
+    <p>Editar Reserva</p>
+    <form action="/editar-reserva.html">
+
+        <label for="proprietario">Proprietário *</label><br>
+    <input type="text" id="proprietario" name="proprietario"><br><br>
+
+    <label for="pet">Pet *</label><br>
+    <input type="text" id="pet" name="pet"><br><br>
+
+    <label for="periodo">Periodo *</label><br>
+    <input type="date" id="periodo" name="periodo"><br><br>
+    <input type="date" id="periodo" name="periodo"><br><br>
+
+    <label for="notas">Notas</label><br>
+    <textarea name="notas" id="notas"></textarea><br><br>
+
+    <label for="status">Status *</label>
+    <select id="status" name="status" required="required">
+        <option value="">--------------</option>
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+        <option value="3">Opção 3</option>
+        <option value="4">Opção 4</option>
+    </select><br><br>
+    
+    <label for="anotacoes">Anotações do Funcionário</label><br>
+    <textarea name="anotacoes" id="anotacoes"></textarea><br><br>
+
+    <p>Total das diárias: </p>
+
+    <button type="submit">Salvar</button>
+    <button type="submit">Limpar</button>
+
+    </form>
+
+</body>
+</html>
