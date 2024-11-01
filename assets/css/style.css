@@ -1,0 +1,97 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: top; /* Centraliza verticalmente o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    min-height: 100vh; /* Ocupa a altura total da tela */
+    gap: 20px; /* Espaçamento entre o banner e o formulário */
+    padding: 20px; /* Espaço ao redor do conteúdo */
+}
+
+.banner {
+    flex: 2; /* Ocupa 2 partes de 3 */
+}
+
+.banner img {
+    width: 100%; /* Ajusta a largura da imagem ao espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.login-form {
+    flex: 1; /* Ocupa 1 parte de 3 */
+    max-width: 400px; /* Limita a largura máxima do formulário */
+    background-color: #e5e5e5; /* Fundo claro */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+h1{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    color: blue;
+}
+
+.divisao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+    width: 100%;
+    font-size: 1em;
+}
+
+.divisao::before,
+.divisao::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%; /* Ocupa 100% da largura do contêiner */
+    padding: 10px; /* Espaçamento interno */
+    margin: 8px 0; /* Espaço entre os campos */
+    box-sizing: border-box; /* Inclui o padding dentro da largura total */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.checkbox-remember {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos nos extremos */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 10px 0; /* Espaçamento vertical */
+}
+
+/* Estilo para o link Esqueci a senha */
+.checkbox-remember .forgot-password {
+    font-size: 14px; /* Ajuste o tamanho do texto, se necessário */
+    color: #007BFF; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.login-form button[type="submit"]{
+    color:white;
+    background-color: blue;
+    width: 100%; /* Ocupa 100% da largura do contêiner */
+    padding: 10px; /* Espaçamento interno */
+    margin: 8px 0; /* Espaço entre os campos */
+    box-sizing: border-box; /* Inclui o padding dentro da largura total */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.login-botton{
+    align-items: center;
+    text-align: center;
+}

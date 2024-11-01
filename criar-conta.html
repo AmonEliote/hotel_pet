@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Pet - Criar Conta</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-    <div id="banner">
-        <img src="https://placehold.co/860x864" alt="banner">
+    <div id="container" class="flex">
+        <section class="banner">
+            <img src="https://placehold.co/860" alt="banner">
+        </section>
+
+        <div class="login-form">
+            <form action="/criar-conta.html" method="post">
+                <h1>Hotel Pet</h1>
+
+                <input type="text" id="username" name="username" required placeholder="Login"><br><br>
+                <input type="password" id="password" name="password" required placeholder="Senha">
+
+                <button type="submit">Criar Conta</button>
+
+                <div class="login-botton">
+                    <a href="/login.html">Já tem conta? Login</a>
+                </div>
+            </form>
+        </div>
     </div>
-    <form id="login_box">
-        <h1>Hotel Pet</h1>
-
-        <label for="username">Usuário:</label><br>
-        <input type="text" id="username" name="username" required><br><br>
-
-        <label for="password">Senha:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <input type="submit" value="Criar conta">
-
-        <a href="/login.html">Já tem conta? Login</a>
-    </form>
-
     
 </body>
 </html>
