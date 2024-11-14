@@ -4,29 +4,29 @@ html{
 
 #container {
     display: flex;
-    align-items: top; /* Centraliza verticalmente o conteúdo */
-    justify-content: center; /* Centraliza horizontalmente */
-    min-height: 100vh; /* Ocupa a altura total da tela */
-    gap: 20px; /* Espaçamento entre o banner e o formulário */
-    padding: 20px; /* Espaço ao redor do conteúdo */
+    align-items: top;
+    justify-content: center; 
+    min-height: 100vh; 
+    gap: 20px; 
+    padding: 20px; 
 }
 
 .banner {
-    flex: 2; /* Ocupa 2 partes de 3 */
+    flex: 2;
 }
 
 .banner img {
-    width: 100%; /* Ajusta a largura da imagem ao espaço disponível */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; 
+    height: auto; 
 }
 
 .login-form {
-    flex: 1; /* Ocupa 1 parte de 3 */
-    max-width: 400px; /* Limita a largura máxima do formulário */
-    background-color: #e5e5e5; /* Fundo claro */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    flex: 1; 
+    max-width: 400px; 
+    background-color: #e5e5e5; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 h1{
@@ -56,39 +56,39 @@ h1{
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
-    width: 100%; /* Ocupa 100% da largura do contêiner */
-    padding: 10px; /* Espaçamento interno */
-    margin: 8px 0; /* Espaço entre os campos */
-    box-sizing: border-box; /* Inclui o padding dentro da largura total */
-    border: 1px solid #ccc; /* Borda leve */
-    border-radius: 4px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
+    width: 100%; 
+    padding: 10px; 
+    margin: 8px 0; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
 }
 
 .checkbox-remember {
     display: flex;
-    justify-content: space-between; /* Distribui os elementos nos extremos */
-    align-items: center; /* Centraliza verticalmente */
-    margin: 10px 0; /* Espaçamento vertical */
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 10px 0; 
 }
 
 /* Estilo para o link Esqueci a senha */
 .checkbox-remember .forgot-password {
-    font-size: 14px; /* Ajuste o tamanho do texto, se necessário */
-    color: #007BFF; /* Cor do link */
+    font-size: 14px; 
+    color: #007BFF; 
     text-decoration: none; /* Remove o sublinhado */
 }
 
 .login-form button[type="submit"]{
     color:white;
     background-color: blue;
-    width: 100%; /* Ocupa 100% da largura do contêiner */
-    padding: 10px; /* Espaçamento interno */
-    margin: 8px 0; /* Espaço entre os campos */
-    box-sizing: border-box; /* Inclui o padding dentro da largura total */
-    border: 1px solid #ccc; /* Borda leve */
-    border-radius: 4px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
+    width: 100%; 
+    padding: 10px; 
+    margin: 8px 0; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
 }
 
 .login-botton{

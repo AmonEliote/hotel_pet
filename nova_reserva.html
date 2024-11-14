@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Pet - Nova Reserva</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside>
+      <h1>Hotel Pet</h1>
+      <nav>
+        <a href="pets.html">Pets</a>
+        <a href="usuarios.html">Usuários</a>
+        <a href="configuracoes.html">Configurações</a>
+        <a href="reservas.html">Reservas</a>
+      </nav>
+    </aside>
+
+    <main>
+      <h2>Criar Nova Reserva</h2>
+
+      <form id="nova-reserva-form">
+        <label for="pet">Pet:</label>
+        <select id="pet" name="pet" required></select>
+
+        <label for="checkin">Data de Chegada:</label>
+        <input
+          type="date"
+          id="checkin"
+          name="checkin"
+          min="2000-01-01"
+          required
+        />
+
+        <label for="checkout">Data de Partida:</label>
+        <input
+          type="date"
+          id="checkout"
+          name="checkout"
+          min="2000-01-01"
+          required
+        />
+
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+          <option value="reservado">Reservado</option>
+          <option value="em_andamento">Em andamento</option>
+          <option value="cancelado">Cancelado</option>
+          <option value="finalizado">Finalizado</option>
+        </select>
+
+        <label for="notas">Notas:</label>
+        <textarea id="notas" name="notas"></textarea>
+
+        <p>Total das Diárias: R$0,00</p>
+        <button type="submit">Salvar Reserva</button>
+        <button type="reset">Limpar</button>
+      </form>
+    </main>
+  </body>
+</html>
